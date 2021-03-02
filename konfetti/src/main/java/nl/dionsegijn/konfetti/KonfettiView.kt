@@ -65,6 +65,7 @@ class KonfettiView : View {
     }
 
     fun myReset() {
+        systems.clear()
         timer.reset()
     }
 
