@@ -64,6 +64,10 @@ class KonfettiView : View {
         invalidate()
     }
 
+    fun myReset() {
+        timer.reset()
+    }
+
     /**
      * TimerIntegration retrieves the delta time since the rendering of the previous frame.
      * Delta time is used to draw the confetti correctly if any frame drops occur.
